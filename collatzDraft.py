@@ -12,6 +12,7 @@
 values = []
 
 value = int(input("Please enter a positive integer: "))
+
 while value > 1: 
     if value % 2 == 0:
         value = value / 2
@@ -19,4 +20,4 @@ while value > 1:
         value = 3 * value + 1
     values.append(int(value))
 
-print(value,(values))
+print(value,values)
