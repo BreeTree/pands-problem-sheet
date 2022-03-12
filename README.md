@@ -1,4 +1,3 @@
-# pands-problem-sheet
 # Solutions to Weekly Problem Sheets 
 
 ## Description 
@@ -9,6 +8,7 @@ Scripts created using Visual Studio.
 
 
 ## Credits
+Heavily used resources through these tasks included [W3Schools](https://www.w3schools.com/python/default.asp) and [Datacamp](https://app.datacamp.com/learn)
 
 ## Licence
 GPL
