@@ -1,4 +1,4 @@
-# Program that calculates square root 
+# Program that calculates square root
 # Author: Breeda Herlihy
 
 # read in the number 14.5
