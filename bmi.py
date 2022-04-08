@@ -9,7 +9,7 @@ height = int(input("Enter your height(cm): "))
 heightMetres = height/100
 
 #calculate BMI
-answer = weight/(heightMetres*heightMetres)
+answer = weight/(heightMetres**2)
 
 # format the result to display two decimals
 # https://www.w3schools.com/python/python_string_formatting.asp

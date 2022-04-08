@@ -2,22 +2,26 @@
 # known as the Collatz Conjecture
 # Author: Breeda Herlihy
 
-# Have the program end if the current value is one.
-# Please enter a positive integer: 10
-# 10 5 16 8 4 2 1
+# solution adapted from 
+# https://www.w3resource.com/python-exercises/challenges/1/python-challenges-1-exercise-23.php
 
-# solution adapted from # https://www.w3resource.com/python-exercises/challenges/1/python-challenges-1-exercise-23.php
-# solution not giving desired output
-
+# create a list
 values = []
 
+# input a positive value
 value = int(input("Please enter a positive integer: "))
+# add this value to the start of the list
+values.insert(0, value)
 
+# Have the program end if the current value is one.
 while value > 1: 
+# perform the Collatz conjecture
     if value % 2 == 0:
-        value = value / 2
+        value = value // 2
     else:
         value = 3 * value + 1
+    # add the values to a list
     values.append(int(value))
 
-print(value,values)
+#print the list
+print(values)
